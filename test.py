@@ -1,4 +1,4 @@
-import add
+from mymodule import add
 
 def test_mymodule():
-    assert add.add(1, 2) == 3
+    assert add(1, 2) == 3
